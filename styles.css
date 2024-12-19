@@ -81,4 +81,174 @@ body{
 #reviews{
     padding:1rem;
 }
+#team img{
+    max-width:14rem;
+    max-height:14rem;
+}
+#team{
+    column-count: 2;
+    column-gap: 3rem;
+}
+#more>nav>a{
+    font-size:1.15rem;
+    max-width: 12rem;
+    justify-content:center;
+    display: flex;
+}
+#service td, #services th{
+    font-size:1.5rem;
+}
+#services tr{
+    font-size:1.4rem;
+}
+#services th{
+    color:#6a9e2d;
+}
+#service td, #services th{
+    vertical-align: top;
+    padding:.5rem;
+}
+#services{
+    text-align:left;
+}
+.day, .time{
+    display:inline-block;
+    margin:1rem 2.5rem 1rem 2.5rem;
+}
+.time>p{
+    font-size:172.5%;
+}
+#map{
+    max-width:100%;
+    max-height:100%;
+}
+.addy>p{
+    font-size:150%;
+}
+.media, .handle{
+    display:inline-block;
+    margin:1rem 0 1rem 0;
+}
+.handle>p{
+    font-size:172.5%;
+}
+@media(min-width:800px){
+    header img{
+        padding:1.5rem;
+    }
+    h1{
+        font-size:300%;
+    }
+    #work img{
+        justify-content:center;
+        max-width:900px;
+    }
+    #team img{
+        max-width:16rem;
+        max-height:16rem;
+    }
+    #more>nav>a{
+        font-size:1.5rem;
+        max-width: 12rem;
+        justify-content:center;
+        display: flex;
+    }
+    .day, .time{
+        margin: 1rem 7rem 1rem 7rem;
+    }
+}
+@media(min-width:1100px){
+    header img{
+        padding:1.5rem;
+        max-height:10rem;
+    }
+    h1{
+        font-size:400%;
+    }
+    #work img{
+        max-width: 310px;
+        display:inline-block;
+        margin:1.25rem;
+    }
+    #reviews{
+        column-count: 3;
+        padding:1.5rem;
+    }
+    #deal, #book{
+        display:inline-block;
+        max-width: 35rem;
+        max-height:7rem;
+        padding:1rem;
+        margin:1rem;
+    }
+    nav a{
+        padding: 1.15rem 1rem 1.15rem 1rem;
+    }
+    #team img{
+        max-width:20rem;
+        max-height:20rem;
+    }
+    #about-bus>h2{
+        font-size:2rem;
+    }
+    .container{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:10rem;
+        margin-left:10rem;
+    }
+    #about-bus>p{
+        font-size:1.25rem;
+    }
   
+    #services{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:10rem;
+        margin-left:8rem;
+    }
+}
+@media(min-width:1600px){
+    header img{
+        padding:1.5rem;
+        max-height:12rem;
+    }
+    h1{
+        font-size:500%;
+    }
+    #work img{
+        max-width: 475px;
+        display:inline-block;
+        margin:1.25rem;
+    }
+    #deal, #book{
+        display:inline-block;
+        max-width: 100%;
+        max-height:10rem;
+        padding:1rem 2rem 1rem 2rem;
+        margin-left:12rem;
+    }
+    nav a{
+        padding: 1.15rem 2rem 1.15rem 2rem;
+    }
+    #team{
+       margin:3rem;
+       padding:3rem 1rem 3rem 1rem;
+    }
+    #reviews{
+        font-size:115%;
+    }
+}
+@media(min-width:1775px){
+    #work img{
+        max-width: 580px;
+        display:inline-block;
+        margin:1.25rem;
+    }
+    nav a{
+        padding: 1.15rem 3rem 1.15rem 3rem;
+    }
+    #about-bus>h2{
+        font-size:2rem;
+    }
+}
