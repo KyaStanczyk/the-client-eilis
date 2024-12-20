@@ -1,6 +1,5 @@
 .josefin-sans{
   font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
 }
@@ -72,7 +71,7 @@ body{
     text-align:center;
     border: black solid .1rem;
 }
-#work img{
+.work img{
     max-height: 100%;
     max-width: 100%;
     margin-bottom:2rem;
@@ -132,6 +131,20 @@ body{
 .handle>p{
     font-size:172.5%;
 }
+.tab{
+    align-items:center;
+    font-size:175%;
+    padding:1rem 2rem 1rem 2rem;
+}
+.hair img, .skin img, .body img{
+    max-width:100%;
+    max-height:7rem;
+}
+#form{
+    color:#3c662b;
+    font-size:150%;
+    margin:5rem 5rem 5rem 5rem;
+}
 @media(min-width:800px){
     header img{
         padding:1.5rem;
@@ -139,7 +152,7 @@ body{
     h1{
         font-size:300%;
     }
-    #work img{
+    .work img{
         justify-content:center;
         max-width:900px;
     }
@@ -156,6 +169,17 @@ body{
     .day, .time{
         margin: 1rem 7rem 1rem 7rem;
     }
+    .hair img, .skin img, .body img{
+        max-width:100%;
+        max-height:15rem;
+    }
+    .tab{
+        font-size: 250%;
+        padding: 2rem 8.5rem 2rem 8.5rem;
+    }
+    #group th{
+        color:#6a9e2d;
+    }
 }
 @media(min-width:1100px){
     header img{
@@ -165,7 +189,7 @@ body{
     h1{
         font-size:400%;
     }
-    #work img{
+    .work img{
         max-width: 310px;
         display:inline-block;
         margin:1.25rem;
@@ -207,6 +231,35 @@ body{
         grid-gap:10rem;
         margin-left:8rem;
     }
+    .hair img, .skin img, .body img{
+        max-width:100%;
+        max-height:8rem;
+    }
+    .tab{
+        font-size: 190%;
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    #group{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap:1rem;
+        margin-left:0;
+    }
+    #info{
+        text-align: center;
+    }
+    .where{
+        text-align:center;
+    }
+    #location{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:0;
+        margin:2rem 20rem 2rem 20rem;
+    }
+    .hour{
+        text-align:center;
+    }
 }
 @media(min-width:1600px){
     header img{
@@ -216,7 +269,7 @@ body{
     h1{
         font-size:500%;
     }
-    #work img{
+    .work img{
         max-width: 475px;
         display:inline-block;
         margin:1.25rem;
@@ -238,9 +291,15 @@ body{
     #reviews{
         font-size:115%;
     }
+    #form{
+        color:#3c662b;
+        font-size:190%;
+        margin:5rem 10rem 5rem 10rem;
+        text-align: center;
+    }
 }
 @media(min-width:1775px){
-    #work img{
+    .work img{
         max-width: 580px;
         display:inline-block;
         margin:1.25rem;

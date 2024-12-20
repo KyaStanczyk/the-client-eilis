@@ -7,6 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;1,600&family=Righteous&display=swap" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="images//apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images//favicon-16x16.png">
+<link rel="manifest" href="images//site.webmanifest">
     <title>Eau, I Love It Salon</title>
 </head>
 <body>
@@ -21,8 +25,39 @@
             <a href="where-when.html">WHERE & WHEN</a>
         </nav>
     </header>
-    <main>
-
-    </main>
-</body>
+        <main>
+            <h2>Schedule an appointment now!</h2>
+            <form id="form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="your-name">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="your-email">
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="your-number">
+                <fieldset>
+                    <legend>Proceed with booking...</legend>
+                    <div>
+                        <label for="schedule">Date</label>
+                        <input type="date" id="schedule" name="appointment-date">
+                        <label for="time">Time</label>
+                        <input type="time" id="time" name="appointment-time">
+                    </div>
+                    <div>
+                        <label for="service">Desired Service:</label>
+                        <input type="text" id="service" name="service-type">
+                        <label for="stylist">Preferred Stylist:</label>
+                        <input type="text" id="stylist" name="stylist-choice">
+                    </div>
+                    <div>
+                        <label for="picture">Inspiration Picture (**if applicable)</label>
+                        <input type="file" id="picture" name="insp-picture" accept="images/*">
+                    </div>
+                </fieldset>
+                    <div class="actions">
+                        <input type="reset">
+                        <input type="submit">
+                    </div>
+            </form>
+        </main>
+    </body>
 </html>
